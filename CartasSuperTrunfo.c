@@ -1,13 +1,15 @@
 #include <stdio.h>
 int main() {
 
+
     printf("Desafio Super Trunfo Países \n");
 
     char A, B;
-    char A1[3], char B1[3];
-    char SaoPaulo[25], Rio de Janeiro[25];
-    int População1; População2;
-    float areaKm1, areaKm2
+    char A1[3];
+    char B1[3];
+    char SaoPaulo[25], Maranhao[25];
+    int População1, População2;
+    float areaKm1, areaKm2;
     float PIB1, PIB2;
     int turismo1, turismo2;
 
@@ -18,10 +20,10 @@ printf("Dados da carta: \n");
 scanf("%c",  &A);
 
 printf("Digite o código da carta: \n");
-scanf("%s",  &A1);
+scanf( "%s",  &A1);
 
 printf("Digite o nome da cidade: \n");
-scanf("%s",  &SaoPaulo);
+scanf( "%s",  &SaoPaulo);
 
 printf("Digite a populaçao: \n");
 scanf("%d",  &População1);
@@ -40,13 +42,13 @@ scanf("%d", &turismo1);
 
 
     printf("Dados da carta: \n");
-scanf("%c",  &A);
+scanf("%c",  &B);
 
 printf("Digite o código da carta: \n");
-scanf("%s",  &A2);
+scanf("%s",  &B1);
 
 printf("Digite o nome da cidade: \n");
-scanf("%s",  &Rio de Janeiro);
+scanf("%s",  &Maranhao);
 
 printf("Digite a populaçao: \n");
 scanf("%d",  &População2);
@@ -69,4 +71,5 @@ scanf("%d", &turismo2);
 
 
     return 0;
+
 }
