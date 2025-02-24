@@ -3,34 +3,63 @@ int main() {
 
     printf("Desafio Super Trunfo Países \n");
 
-    char Estado [30];
-    char código [6];
-    char cidade [50];
-    int População;
-    float Km²;
-    float PIB;
-    int turismo;
+    char A, B;
+    char A1[3], char B1[3];
+    char SaoPaulo[25], Rio de Janeiro[25];
+    int População1; População2;
+    float areaKm1, areaKm2
+    float PIB1, PIB2;
+    int turismo1, turismo2;
 
-printf("Digite o Estado: \n");
-scanf("%s",  &Estado);
+    
+//dados da primeira carta A1
+    
+printf("Dados da carta: \n");
+scanf("%c",  &A);
 
 printf("Digite o código da carta: \n");
-scanf("%s",  &código);
+scanf("%s",  &A1);
 
 printf("Digite o nome da cidade: \n");
-scanf("%s",  &cidade);
+scanf("%s",  &SaoPaulo);
 
 printf("Digite a populaçao: \n");
-scanf("%i",  &População);
+scanf("%d",  &População1);
 
 printf(" Digite a Área em Km²: \n");
-scanf("%f",  &Km²);
+scanf("%f",  &areaKm1);
 
 printf("Digite o PIB: \n");
-scanf("%f", &PIB);
+scanf("%f", &PIB1);
 
 printf("Número de pontos turisticos: \n");
-scanf("%i", &turismo);
+scanf("%d", &turismo1);
+
+
+    //dados da segunda carta B1
+
+
+    printf("Dados da carta: \n");
+scanf("%c",  &A);
+
+printf("Digite o código da carta: \n");
+scanf("%s",  &A2);
+
+printf("Digite o nome da cidade: \n");
+scanf("%s",  &Rio de Janeiro);
+
+printf("Digite a populaçao: \n");
+scanf("%d",  &População2);
+
+printf(" Digite a Área em Km²: \n");
+scanf("%f",  &areaKm2);
+
+printf("Digite o PIB: \n");
+scanf("%f", &PIB2);
+
+printf("Número de pontos turisticos: \n");
+scanf("%d", &turismo2);
+    
 
 
 
